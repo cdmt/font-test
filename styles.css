@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "ATFabriga";
+  src: url("fonts/ATATFabriga-Regular.eot"),
+    url("ATATFabriga-Regular.woff2") format("woff2"),
+    url("fonts/ATATFabriga-Regular.woff") format("woff"),
+    url("fonts/ATATFabriga-Regular.ttf") format("truetype");
+}
+
+
+html,
+body {
+  margin: 20px;
+}
+
+.title {
+  font-family: ATFabriga;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #bbb;
+}
+
+.title-not {
+  /* font-size: 30px; */
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.numbers {
+  font-family: ATFabriga;
+  font-size: 50px;
+}
+
+.zero {
+  font-feature-settings: "zero";
+  -webkit-font-feature-settings: "zero";
+  -moz-font-feature-settings: "zero";
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+.text {
+  font-family: ATFabriga;
+}
+
+.tabular {
+  font-feature-settings: "tnum";
+  -webkit-font-feature-settings: "tnum";
+  -moz-font-feature-settings: "tnum";
+}
+
+
+/* not font-variant-numeric */
